@@ -1,0 +1,42 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway+Dots&display=swap');
+ .font-dots {
+   font-family: 'Raleway Dots', cursive;
+   font-weight: 400;
+   font-size: 72px;
+ }
+ body {
+   font-family:'Quicksand', sans-serif;
+ }
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #00ABBD;
+  --ifm-color-primary-dark: #026E81;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #2a1763;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #0099DD;
+  --ifm-color-primary-lightest: #A1C7E0;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-navbar-background-color: #90cedf;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-navbar-background-color: #477d8c;
+}
